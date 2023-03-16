@@ -17,10 +17,9 @@ if (randomNumber1>randomNumber2) {
     document.querySelector(".img2").classList.add("winner");
 }
 else{
-
     document.querySelector("h1").innerHTML="🚩Draw🚩";
 }
 
 document.querySelector(".reload").addEventListener("click", function(){
-    onclick=window.location.reload();;
+    onclick=location.reload();
 })
