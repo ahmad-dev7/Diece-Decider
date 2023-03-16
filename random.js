@@ -22,5 +22,5 @@ else{
 }
 
 document.querySelector(".reload").addEventListener("click", function(){
-    onclick=location.reload();
+    onclick=window.location.reload();;
 })
