@@ -1,5 +1,6 @@
 body {
   background-color: #393E46;
+  text-align: center;
 }
 
 .container {
@@ -45,4 +46,10 @@ footer {
 .winner {
   transform: scale(1.1);
   box-shadow: 1px 1px 5px aqua;
+}
+
+.reload{
+  margin-top: 50px;
+  width: 350px;
+  font-weight: bold;
 }
