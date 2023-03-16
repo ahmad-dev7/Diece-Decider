@@ -20,3 +20,7 @@ else{
 
     document.querySelector("h1").innerHTML="🚩Draw🚩";
 }
+
+document.querySelector(".reload").addEventListener("click", function(){
+    onclick=location.reload();
+})
